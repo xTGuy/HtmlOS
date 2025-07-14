@@ -1,3 +1,6 @@
-import * as WinBox from "https://rawcdn.githack.com/nextapps-de/winbox/0.2.82/dist/winbox.bundle.min.js";
-
-new WinBox("Test");
+function start() {
+    new WinBox({
+        title: "Start",
+        html: "<h1>Applications<h1>"
+    })
+}
