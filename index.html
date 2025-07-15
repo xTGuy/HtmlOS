@@ -2,9 +2,16 @@
 <html>
     <head>
         <script src="dist/winbox.bundle.min.js"></script>
-        <script src="script.js"></script>
+        <script>
+            new WinBox() ({
+                title: "Custom Window",
+                html: `
+                    <h1>Custom Cool Window</h1>
+                    <button>Just a button</button>
+                `
+            });
+        </script>
     </head>
     <body>
-        <button class="test" onclick="Start();">Start</button>
     </body>
 </html>
